@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <title>Contact Us - Dealerships</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/style.css">
     <style>
         .contact-header { padding: 40px 0; text-align: center; background-color: #f8f9fa; margin-bottom: 30px;}
         .contact-info { font-size: 1.1em; line-height: 1.8; }
+        .contact-img { max-width: 100%; height: auto; margin-top: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
     </style>
 </head>
 <body>
@@ -18,10 +20,10 @@
                     <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/about/">About Us</a>
+                    <a class="nav-link" href="/about">About Us</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="/contact/">Contact Us</a>
+                    <a class="nav-link" href="/contact">Contact Us</a>
                 </li>
             </ul>
         </div>
@@ -29,6 +31,7 @@
 
     <div class="contact-header">
         <h1>Contact Us</h1>
+        <img src="/static/contactus.png" class="contact-img" alt="Contact Us Banner" style="width: 300px;">
         <p class="lead">We'd love to hear from you. Get in touch with Best Cars Dealership.</p>
     </div>
 
@@ -45,7 +48,7 @@
                 Sunday: Closed</p>
             </div>
             <div class="col-md-6 text-center">
-                <img src="https://via.placeholder.com/500x300.png?text=Dealership+Showroom" class="img-fluid rounded shadow" alt="Dealership Showroom">
+                <img src="/static/cars.jpeg" class="img-fluid rounded shadow contact-img" alt="Our Cars Selection">
             </div>
         </div>
     </div>
